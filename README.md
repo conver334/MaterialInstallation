@@ -27,6 +27,7 @@ Grasshopper for Rhino 7 Mac
 <img src="./pic/select_mesh.png"  />
 3. View the results in the currently open Rhino file
 <img src="./pic/result.jpg"  />
+
 ### make your own cell
 Copy the main.py code to the GH_python script component in the grasshopper platform
 Adjust according to your needs
