@@ -73,7 +73,7 @@ from math import pi
 # import rhino_tools
 inf = 2147483647
 __author__ = "ZHANG Simiao"
-__version__ = "2021.11.10"
+__version__ = "1.0.0"
 
 
 cfg = {
@@ -823,7 +823,7 @@ class MyComponent(component):
         radiationResult=None
         self.Name = "A software for the designing of the installation of photoelectrocatalytic building materials and flexible solar cells."
         self.NickName = 'MaterialInstallationSoftware'
-        self.Message = 'VER 1.1.1\nNov_10_2021'
+        self.Message = 'VER 1.0.0\nNov_10_2021'
         self.Category = "GreenChemistry"
         self.SubCategory = "1 | MaterialInstallation"
         
@@ -969,7 +969,7 @@ class MyComponent(component):
                 list2=[]
                 list3=[]
                 list4=[]
-                """
+                
                 # rs.MaterialColor(material_index, color=(255,0,0))
                 for i in range(0,ansmesh+1):
                     id = totalmesh[i].num
@@ -979,7 +979,7 @@ class MyComponent(component):
                     list2.append( faces_all[fd][id+1])
                     list3.append( faces_all[fd][id+2])
                     list4.append( faces_all[fd][id+3])
-                    """
+            
                 return list1,list2,list3,list4,ansmesh,ansarea
                
         (point1,point2,point3,point4, meshNum,mesharea) = main()
