@@ -3,7 +3,8 @@
 \[[paper](https://doi.org/10.1016/j.buildenv.2021.108657)\]
 
 ## introduction 
-The article proposes a model that comprehensively considers ecological and economic benefits
+The article proposes a model that comprehensively considers ecological and economic benefits.
+
 This plug-in is the implementation of the model in the article, as well as the data analysis part of article.
 
 In order to interact with the building model, it is implemented as a plug-in in the grasshopper platform in Rhino, which is a commonly used CAD.
@@ -14,8 +15,11 @@ You can use it by opening the demo file directly in the grasshopper platform[Mat
 ## platform
 
 Grasshopper for Rhino 6 for Win
+
 Grasshopper for Rhino 7 for Win
+
 Grasshopper for Rhino 6 Mac
+
 Grasshopper for Rhino 7 Mac
 
 ## how to use
@@ -29,8 +33,9 @@ Grasshopper for Rhino 7 Mac
 <img src="./pic/result.jpg"  />
 
 ### make your own cell
-Copy the main.py code to the GH_python script component in the grasshopper platform
-Adjust according to your needs
+Copy the main.py code to the GH_python script component in the grasshopper platform.
+
+Adjust according to your needs.
 
 ## Datasets
 The parameters in the demo file are set to Guangzhou by default
